@@ -13,7 +13,7 @@ exports.handler = async (event) => {
         let subject = "";
         let message = "";
 
-        const filename = 'ileri_tarihli_siparisler';
+        const filename = '';
         let workbook = new ExcelJS.Workbook();
         let worksheet = workbook.addWorksheet('');
 
